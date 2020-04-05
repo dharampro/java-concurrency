@@ -1,4 +1,4 @@
-package com.techendear.concurrency.producconsume;
+package com.techendear.concurrency.producerconsumer;
 
 public class ProCons {
 

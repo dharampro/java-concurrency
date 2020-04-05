@@ -1,4 +1,4 @@
-package com.techendear.concurrency.advanced.lockcond;
+package com.techendear.concurrency.advanced.lock;
 
 import java.util.HashMap;
 import java.util.Map;

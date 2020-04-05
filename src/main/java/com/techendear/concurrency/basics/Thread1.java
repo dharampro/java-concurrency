@@ -1,4 +1,4 @@
-package com.techendear.concurrency.basic;
+package com.techendear.concurrency.basics;
 
 public class Thread1 implements Runnable {
 

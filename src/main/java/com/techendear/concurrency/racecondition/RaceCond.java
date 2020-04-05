@@ -1,4 +1,4 @@
-package com.techendear.concurrency.racecond;
+package com.techendear.concurrency.racecondition;
 
 public class RaceCond {
 
