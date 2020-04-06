@@ -15,8 +15,14 @@ public class BasicExecutorServiceExample {
 		}
 
 		ExecutorService se = Executors.newSingleThreadExecutor();
-		for (int j = 0; j < threads.length; j++)
-			se.execute(threads[j]);
+
+		try {
+			for (int j = 0; j < threads.length; j++)
+				se.execute(threads[j]);
+		} finally {
+			se.shutdown();
+		}
+
 	}
 
 	public static void threadFunc(int n) {
